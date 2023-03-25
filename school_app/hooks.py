@@ -95,13 +95,12 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Item": { # Doctype Name
+		"validate": "school_app.custom_hooks.item.create_subject", # Trigger (alidate) and doted path.
+		
+	}
+}
 
 # Scheduled Tasks
 # ---------------

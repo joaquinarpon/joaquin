@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-23 15:56:47.573679",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subject",
+  "percent_grade",
+  "letter_grade"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject",
+   "fieldtype": "Link",
+   "label": "Subject",
+   "options": "Subject"
+  },
+  {
+   "fieldname": "percent_grade",
+   "fieldtype": "Float",
+   "label": "Percent Grade"
+  },
+  {
+   "fieldname": "letter_grade",
+   "fieldtype": "Data",
+   "label": "Letter Grade"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-24 09:17:44.313310",
+ "modified_by": "Administrator",
+ "module": "School App",
+ "name": "Subject Grades",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
